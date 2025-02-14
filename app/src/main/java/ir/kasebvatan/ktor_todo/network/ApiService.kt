@@ -33,5 +33,4 @@ interface ApiService {
     @DELETE("deleteTask")
     fun deleteTask(@Query("id") id: Int): Call<ResponseModel>
 
-
 }
