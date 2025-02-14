@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <EditText
+           android:id="@+id/inputUsername"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:layout_marginHorizontal="50dp"
+           android:hint="username" />
+
+       <EditText
+           android:id="@+id/inputPassword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/inputUsername"
+           android:layout_marginHorizontal="50dp"
+           android:layout_marginVertical="10dp"
+           android:hint="password" />
+
+
+       <Button
+           android:id="@+id/btnRegister"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/inputPassword"
+           android:layout_centerHorizontal="true"
+           android:text="REGISTER" />
+
+       <TextView
+           android:id="@+id/txtLogin"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/btnRegister"
+           android:layout_centerHorizontal="true"
+           android:layout_marginVertical="10dp"
+           android:text="GO TO LoginActivity" />
+   </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
