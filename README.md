@@ -6,9 +6,7 @@ This is the Android client for the Ktor ToDo backend, built with Kotlin.
 📱 Features
 -----------
 
-*   MVVM architecture with Jetpack components
 *   Retrofit for API calls
-*   Room Database for offline storage
 *   Material UI for a clean user interface
 
 ⚙️ Installation
